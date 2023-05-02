@@ -1,0 +1,55 @@
+{
+  "name": "fx-converter",
+  "author": "Vittorio Pinti",
+  "version": "0.1.0",
+  "description": "FX Converter è una libreria JavaScript per la conversione di valute utilizzando le API fornite dalla European Central Bank. Questa libreria è stata progettata per essere utilizzata con React e Laravel, ed è facile da integrare nei progetti esistenti. Supporta molte valute internazionali e consente di specificare facilmente le tariffe di conversione personalizzate.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^4.0.0",
+    "eslint": "^8.38.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.3.4",
+    "husky": "^8.0.3",
+    "lint-staged": ">=10",
+    "prettier": "2.8.8",
+    "vite": "^4.3.2"
+  },
+  "repository": "git+https://github.com/vpinti/fx-converter.git",
+  "keywords": [
+    "\"conversione",
+    "valute\"",
+    "\"currency",
+    "exchange\"",
+    "\"European",
+    "Central",
+    "Bank\"",
+    "\"React\"",
+    "\"Laravel\"",
+    "\"JavaScript",
+    "library\""
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vpinti/fx-converter/issues"
+  },
+  "homepage": "https://github.com/vpinti/fx-converter#readme",
+  "lint-staged": {
+    "*.{js,jsx}": "eslint --cache --fix",
+    "*.{js,css,md}": "prettier --write"
+  }
+}
